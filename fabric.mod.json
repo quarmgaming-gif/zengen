@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "namegen",
+  "version": "${version}",
+  "name": "NameGen",
+  "description": "Generator komend z nazwami i znakami specjalnymi. Otwierany klawiszem O.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.namegen.NameGenClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
